@@ -4,23 +4,21 @@
 <head>
     <meta charset=utf-8/>
     <title>ic-06</title>
-    <script type="text/javascript" src="script.js"></script>
-</head>
-
+    </head>
 
 <body>
     <h1>JavaScript Part 2</h1>
-    
-    <button type="button" onclick="updatescore()">Click Me!</button>
 
+    <div>
     <svg width="250px" height="250px">
     <rect x="0" y="0" width="200" height="250"  fill-opacity="0" stroke="black"/>
-    <circle id="myBtn" cx="145" cy="55" r="50" fill="white" stroke="coral" stroke-width="2"/>
-    <line x1="1" y1="180" x2="199" y2="180" stroke="royalblue" stroke-width="10"/>
+    <circle cx="145" cy="55" r="50" fill="white" stroke="coral" stroke-width="2"/>
+    <line id="line" x1="1" y1="180" x2="199" y2="180" stroke="royalblue" stroke-width="10"/>
     </svg>
-
-
-
+    </div>
+    
+    <button id="button" onclick="changeColor()">Click Me!</button>
+    <script type="text/javascript" src="script.js"></script>
 
     <h2>Acknowledgements</h2>
         <ol>

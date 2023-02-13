@@ -1,5 +1,7 @@
-document.getElementById("myBtn").addEventListener("mouseover", myFunction);
+function changeColor() {
 
-function myFunction() {
-  alert ("Hello World!");
+  document.getElementId("line").style.backgroundColor = "#911";
+
 }
+
+document.getElementId("button").addEventListener("click", changeColor);
